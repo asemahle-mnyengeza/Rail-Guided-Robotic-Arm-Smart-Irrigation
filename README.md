@@ -34,9 +34,29 @@ The system combines robotics, embedded systems, sensors and automation to improv
 
 ## Project Images
 
-Project photographs will be added here.
+![Full System Project](Full%20system%20project%20image.jpg)
 
 ## Source Code
 
-The source code for the different subsystems will be uploaded to this repository.
+The complete source code for the rail-guided robotic arm and automated irrigation system is provided in the Arduino sketch below.
 
+**Main Source Code:**
+- [Final_Code.ino](Final_code.ino)
+
+The program contains the control logic developed for the integrated robotic system, including its movement, monitoring and irrigation functions.
+
+## How the System Works
+
+The rail-guided robotic arm operates through an automated sequence to monitor and service crops at different stations.
+
+1. **Rail Movement:** The stepper motor moves the robotic arm along the rail to the designated crop station.
+2. **Arm Positioning:** The four-servo robotic arm moves into position to perform crop monitoring.
+3. **Soil Monitoring:** The soil moisture sensor measures the moisture level of the soil.
+4. **Irrigation:** If the soil moisture level falls below the set threshold of 50%, the relay activates the water pump to supply water.
+5. **Repeat Operation:** The robotic arm retracts, and the rail moves to the next crop station. The process repeats until all designated stations have been serviced.
+
+## Future Improvements
+
+- Implement QR-code-based crop identification using the ESP32-CAM.
+- Improve coordination between the rail and robotic arm.
+- Enhance autonomous crop monitoring and irrigation.
