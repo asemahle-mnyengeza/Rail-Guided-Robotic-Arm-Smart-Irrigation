@@ -41,7 +41,7 @@ The system combines robotics, embedded systems, sensors and automation to improv
 The complete source code for the rail-guided robotic arm and automated irrigation system is provided in the Arduino sketch below.
 
 **Main Source Code:**
-- [Final_Code.ino](Final_code.ino)
+- [Final_code.ino](Final_code.ino)
 
 The program contains the control logic developed for the integrated robotic system, including its movement, monitoring and irrigation functions.
 
